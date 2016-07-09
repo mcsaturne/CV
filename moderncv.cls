@@ -331,7 +331,7 @@
 % usage: \moderncvfoot{<footer variant number>}
 \newcommand*{\moderncvfoot}[1]{
   \expandafter\RequirePackage\expandafter{\expandafter moderncvfoot\romannumeral #1}}
-
+  
 % loads a color scheme
 % usage: \moderncvcolor{<color scheme name>}
 \newcommand*{\moderncvcolor}[1]{

@@ -1,10 +1,12 @@
 CC=xelatex
-NAME=cv.tex
+CV=cv.tex
+LETTRE=lettre.tex
 
 run: build clean
 
 build:
-	$(CC) $(NAME)
+	$(CC) $(CV)
+	$(CC) $(LETTRE)
 
 clean:
 	rm *.aux *.log *.out

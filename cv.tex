@@ -1,37 +1,37 @@
-% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+\documentclass[11pt,letterpaper,roman]{moderncv}
 
-\documentclass[11pt, letterpaper]{moderncv}
-\moderncvtheme[burgundy]{classic}
+\moderncvstyle{classic}
 \moderncvcolor{blue}
-\usepackage[utf8]{inputenc}
-\usepackage[top=1.1cm, bottom=1.8cm, left=2cm, right=2cm]{geometry}
+
+\usepackage[top=0.8cm, bottom=1.8cm, left=2cm, right=2cm]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}					% Largeur de la colonne pour les dates
+
 
 \firstname{Maxime}
 \familyname{Grenier}
-\title{Bachelier en informatique et génie logiciel}
-\address{12712 Louis-Joseph-Papineau\\Mirabel, Qc, J7J 1V8\\}
+\title{B. Sc. A. Informatique et génie logiciel}
+\address{12712 Louis-Joseph-Papineau}{Mirabel, Qc, J7J 1V8}{Canada}
+\phone[mobile]{(438) 322-1707}
+\phone[fixed]{(450) 951-2589}
 \email{grenier.maxime@outlook.com}
-\mobile{(438) 322-1707}
 \homepage{www.maximegrenier.com}
-\extrainfo{%
-  \httplink{www.linkedin.com/in/maximegrenier}}
 
 \cfoot{www.maximegrenier.com}
 
 \begin{document}
 \maketitle
 \section{Formation}
-\cventry{2013 -- 2016}{BAC en informatique et génie logiciel}{Université du Québec à Montréal}{Montréal}{}{Cours complémentaires : Programmation web, Développement Agile, Langages de script et langages dynamiques, Interfaces personnes-machines}
-\cventry{2004 -- 2009}{DEC en informatique industrielle}{Collège Lionel-Groulx}{Sainte-Thérèse}{}{}
+\cventry{2013 -- 2016}{BAC en informatique et génie logiciel}{Université du Québec à Montréal}{Montréal}{}{Formation officielle en JAVA \\Cours complémentaires : Programmation web, Développement Agile, Langages de script et \\langages dynamiques, Interfaces personnes-machines}
+\cventry{2004 -- 2009}{DEC en informatique industrielle}{Collège Lionel-Groulx}{Sainte-Thérèse}{}{Formation officielle en C++}
 
 \section{Compétences en informatique}
-\cventry{Langages}{Formation officielle en JAVA, C/C++, Ruby, HTML/CSS/JavaScript, bash}{pour une liste complète, consultez mon profil LinkedIn}{}{}{}
-\cventry{Base de données}{Formation officielle en Oracle}{}{}{}{}
+\cventry{Langages}{JAVA, C/C++, Ruby, HTML/CSS/JavaScript, bash}{pour une liste complète, consultez mon profil LinkedIn}{}{}{}
+\cvitem{Outils de tests}{\textbf{JUnit 4, Approche TDD.}}
+\cventry{Base de données}{Oracle, Access, SQL et PL/SQL}{}{}{}{}
 \cventry{Système d'exploitation}{Windows, MacOS, Linux}{}{}{}{}
-\cvitem{IDE}{\textbf{Atom.io, Suite JetBrains, NetBeans}}
-\cvitem{Outils bureautique}{\textbf{\LaTeX, Markdown, Microsoft Office, Libre Office, suite Google}}
-\cvitem{Varias}{\textbf{Système de gestion de sources Git, Méthodologie Agile, Final Cut Pro, Adobe Photoshop}}
+\cvitem{IDE}{\textbf{Atom.io, Suite JetBrains, NetBeans, Visual Studio.}}
+\cvitem{Outils bureautique}{\textbf{\LaTeX, Markdown, Microsoft Office, Libre Office, suite Google.}}
+\cvitem{Varias}{\textbf{Système de gestion de sources Git, Méthodologie Agile, Final Cut Pro, Adobe Photoshop.}}
 
 \section{Expériences de travail}
 \cventry{2010\\à aujourd'hui}{Librairie Carcajou}{Rosemère}{Libraire}{}{Conseils littéraires à la clientèle, réception de marchandises et tenue de caisse.}
